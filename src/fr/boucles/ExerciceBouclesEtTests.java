@@ -50,7 +50,7 @@ public class ExerciceBouclesEtTests {
 		 
 		 //Combiner une boucle et un test de manière à n’afficher que les entiers impairs
 		 for (int i = 0; i <= array.length - 1; i++) {
-			 if (array[i] %2 == 1) {
+			 if (array[i] %2 == 1 || array[i] %2 == - 1) {
 			 System.out.println(array[i]);	 
 			 }		 
 		 }
